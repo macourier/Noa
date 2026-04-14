@@ -1,0 +1,34 @@
+{
+  "cliVersion": "2.0.1",
+  "generatedAt": "2026-04-08T14:58:53.636Z",
+  "operationMode": "upgrade",
+  "selectedProfile": "beginner",
+  "selectedProfilePack": null,
+  "selectedStack": "typescript.md",
+  "selectedBlueprint": "api-nextjs.md",
+  "ciGuardrailsEnabled": true,
+  "setupDurationMs": 106,
+  "selectedSkillDomains": [],
+  "autoDetection": {
+    "recommendedStack": "typescript.md",
+    "recommendedBlueprint": "api-nextjs.md",
+    "confidenceLabel": "high",
+    "confidenceScore": 0.94,
+    "confidenceGap": 0.94,
+    "detectionReasoning": "Top signal Typescript won with confidence 0.94 from markers: package.json, tsconfig.json.",
+    "rankedCandidates": [
+      {
+        "stackFileName": "typescript.md",
+        "confidenceScore": 0.94,
+        "evidence": [
+          "package.json",
+          "tsconfig.json"
+        ]
+      }
+    ],
+    "evidence": [
+      "package.json",
+      "tsconfig.json"
+    ]
+  }
+}

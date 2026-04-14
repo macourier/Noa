@@ -1,0 +1,22 @@
+# Vibe Coding Starter Pack — LLM Entry
+
+## Quick Start
+1. Clone repo, npm install, cp .env.example .env.local
+2. Read AGENTS.md for full project conventions
+3. Read .clinerules/ for AI coding standards
+4. Check memory-bank/ for current project state
+
+## Architecture
+- Next.js 16 App Router with React 19
+- TypeScript strict mode
+- Vitest for testing (80% coverage target)
+- Husky + lint-staged for pre-commit hooks
+- GitHub Actions CI/CD
+
+## Key Files
+- AGENTS.md — Agent conventions
+- ROADMAP.md — Quality standards
+- .clinerules/ — AI rules
+- memory-bank/ — Project memory
+- vitest.config.ts — Test configuration
+- sentinel.ts — Self-healing test watcher

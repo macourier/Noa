@@ -1,0 +1,9 @@
+{
+  "schemaVersion": "compatibility-manifest-v1",
+  "artifactType": "skill-domain-evidence",
+  "domain": "fullstack",
+  "ides": ["cursor", "windsurf", "copilot", "gemini", "claude", "codex", "cline"],
+  "nodeMin": "18",
+  "platforms": ["windows", "linux", "macos"],
+  "validatedAt": "2026-04-11T12:00:00Z"
+}

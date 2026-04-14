@@ -1,0 +1,29 @@
+# Nuxt dev/build outputs
+.nuxt
+.output
+.data
+
+# Node
+node_modules
+*.log*
+
+# Env
+.env
+.env.*
+
+# IDE
+.vscode
+.idea
+
+# OS
+.DS_Store
+Thumbs.db
+
+# PWA dev
+dev-dist
+
+# Starter pack (template source)
+_starter_pack
+
+# Memory Bank local notes
+memory-bank/local.local.md

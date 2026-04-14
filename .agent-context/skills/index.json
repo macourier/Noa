@@ -1,0 +1,107 @@
+{
+  "defaultTier": "advance",
+  "tiers": [
+    {
+      "name": "standard",
+      "description": "Compatibility fallback only"
+    },
+    {
+      "name": "advance",
+      "description": "Default operating tier"
+    },
+    {
+      "name": "expert",
+      "description": "Complex architecture and integration"
+    },
+    {
+      "name": "above",
+      "description": "Release-critical enterprise governance"
+    }
+  ],
+  "domains": {
+    "frontend": {
+      "name": "frontend",
+      "displayName": "Frontend",
+      "description": "Unified frontend delivery covering UI architecture, motion, accessibility, and conversion clarity.",
+      "defaultTier": "advance",
+      "defaultPackFileName": "frontend.md",
+      "evidence": "Frontend usability audit, accessibility checks, and visual regression output.",
+      "tierToPackFileNames": {
+        "standard": "frontend.md",
+        "advance": "frontend.md",
+        "expert": "frontend.md",
+        "above": "frontend.md"
+      }
+    },
+    "backend": {
+      "name": "backend",
+      "displayName": "Backend",
+      "description": "Backend delivery with strict layer separation, validation, and safe data access.",
+      "defaultTier": "advance",
+      "defaultPackFileName": "backend.md",
+      "evidence": "Unit tests, API contracts, and release gate output.",
+      "tierToPackFileNames": {
+        "standard": "backend.md",
+        "advance": "backend.md",
+        "expert": "backend.md",
+        "above": "backend.md"
+      }
+    },
+    "fullstack": {
+      "name": "fullstack",
+      "displayName": "Fullstack",
+      "description": "Single-path product delivery across frontend and backend boundaries.",
+      "defaultTier": "advance",
+      "defaultPackFileName": "fullstack.md",
+      "evidence": "End-to-end tests, contract validation, and feature parity review.",
+      "tierToPackFileNames": {
+        "standard": "fullstack.md",
+        "advance": "fullstack.md",
+        "expert": "fullstack.md",
+        "above": "fullstack.md"
+      }
+    },
+    "cli": {
+      "name": "cli",
+      "displayName": "CLI",
+      "description": "Smart command-line delivery with safe defaults, machine-readable output, and upgrade flows.",
+      "defaultTier": "advance",
+      "defaultPackFileName": "cli.md",
+      "evidence": "CLI smoke tests, dry-run output, and automation-friendly reports.",
+      "tierToPackFileNames": {
+        "standard": "cli.md",
+        "advance": "cli.md",
+        "expert": "cli.md",
+        "above": "cli.md"
+      }
+    },
+    "distribution": {
+      "name": "distribution",
+      "displayName": "Distribution",
+      "description": "Package safety, rollback, compatibility, and release hygiene.",
+      "defaultTier": "expert",
+      "defaultPackFileName": "distribution.md",
+      "evidence": "Install validation, rollback verification, and publish dry-run logs.",
+      "tierToPackFileNames": {
+        "standard": "distribution.md",
+        "advance": "distribution.md",
+        "expert": "distribution.md",
+        "above": "distribution.md"
+      }
+    },
+    "review-quality": {
+      "name": "review-quality",
+      "displayName": "Review Quality",
+      "description": "Planning, review, benchmark, and security discipline for every change.",
+      "defaultTier": "expert",
+      "defaultPackFileName": "review-quality.md",
+      "evidence": "PR review output, benchmark report, and security audit results.",
+      "tierToPackFileNames": {
+        "standard": "review-quality.md",
+        "advance": "review-quality.md",
+        "expert": "review-quality.md",
+        "above": "review-quality.md"
+      }
+    }
+  }
+}

@@ -1,0 +1,61 @@
+# Dependencies
+node_modules/
+.pnp/
+.pnp.*
+
+# Build & output
+.next/
+out/
+build/
+dist/
+
+# Cache & temp
+.cache/
+.turbo/
+*.tsbuildinfo
+tmp/
+temp/
+
+# Coverage & test artifacts
+coverage/
+.nyc_output/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+logs/
+
+# Binaries & heavy assets
+*.woff2
+*.woff
+*.ttf
+*.eot
+*.ico
+
+# Environment & secrets
+.env
+.env.*
+!.env.example
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Bundles
+*.tgz
+*.tar.gz
+
+# Supabase
+.supabase/
+
+# Memory Bank local
+memory-bank/local.local.md
+
+# Vite
+vitest.config.*.timestamp*

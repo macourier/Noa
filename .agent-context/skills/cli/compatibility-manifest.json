@@ -1,0 +1,8 @@
+{
+  "schemaVersion": "compatibility-manifest-v1",
+  "artifactType": "skill-domain",
+  "domain": "cli",
+  "ides": ["cursor", "windsurf", "copilot", "gemini", "claude", "codex", "cline"],
+  "nodeMin": "18",
+  "platforms": ["windows", "linux", "macos"]
+}

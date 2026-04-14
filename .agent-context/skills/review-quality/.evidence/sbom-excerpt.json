@@ -1,0 +1,6 @@
+{
+  "format": "cyclonedx",
+  "component": "@agentic-skills/review-quality",
+  "version": "1.0.0",
+  "dependencies": []
+}

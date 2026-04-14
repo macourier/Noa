@@ -1,0 +1,31 @@
+{
+  "name": "noa-os",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxi build",
+    "dev": "nuxi dev",
+    "generate": "nuxi generate",
+    "preview": "nuxi preview",
+    "postinstall": "nuxi prepare",
+    "prepare": "husky"
+  },
+  "dependencies": {
+    "@vueuse/core": "^12.5.0",
+    "appwrite": "^17.0.0",
+    "lucide-vue-next": "^0.474.0",
+    "nuxt": "^3.16.0",
+    "tailwind-merge": "^3.0.0",
+    "vue": "^3.5.0",
+    "vue-router": "^4.5.0"
+  },
+  "devDependencies": {
+    "@nuxt/devtools": "^2.3.0",
+    "@nuxtjs/tailwindcss": "^6.14.0",
+    "@vite-pwa/nuxt": "^0.10.0",
+    "husky": "^9.1.7",
+    "lint-staged": "^16.4.0",
+    "typescript": "^5.7.0",
+    "vite-plugin-pwa": "^0.21.0"
+  }
+}
